@@ -32,10 +32,5 @@ jobs:
           local_folder: ./ # optional, local path, default is: dist
           cleanup: false # optional, remove existing files inside FTP remote folder
           include: "* **/*"
-          exclude: |
-                    **/.git*
-                    **/.git*/**
-                    **/node_modules/**
-                    **/test*
-                    **/LICENCE*
+          exclude: "**/.git* **/.git*/** */.git* **/node_modules/** **/test* **/LICENCE*"
           passive: true # optional
