@@ -6,11 +6,6 @@
   --alt-highlight: #9d9d9d;
 }
 
-@font-face {
-  font-family: 'needleteeth';
-  src: url('../fonts/Needleteeth_Regular.woff2') format('woff2')
-}
-
 body {
   color: var(--text);
   background-color: var(--background);
@@ -20,6 +15,7 @@ body {
 .main {
   padding: 0rem 1rem;
 }
+
 /*header*/
 header {
   display: flex;
